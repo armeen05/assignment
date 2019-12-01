@@ -1,0 +1,14 @@
+<aiml version="1.0.1" encoding="UTF-8">
+ 
+   <category>
+       <pattern>I * </pattern>
+       <template>Do i <star/>? 
+       </template>
+   </category>
+   
+   <category>
+       <pattern>I am * </pattern>
+       <template>Am i <star/>?
+       </template>
+   </category>
+</aiml>
