@@ -1,0 +1,7 @@
+import aiml
+
+kernel = aiml.Kernel()
+kernel.learn("assignment.aiml")
+
+while True:
+    print (kernel.respond(input("Enter your message >> ")))
